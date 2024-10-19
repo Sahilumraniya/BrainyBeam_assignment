@@ -1,0 +1,49 @@
+# Ignore node_modules in all projects
+**/node_modules/
+
+# Build output
+**/dist/
+**/build/
+**/public/static/
+**/coverage/
+
+# Logs
+**/logs/
+**/*.log
+
+# Temporary files
+**/*.tmp
+**/*.temp
+
+# Environment variables
+**/.env
+**/.env.local
+**/.env.development.local
+**/.env.test.local
+**/.env.production.local
+
+# Yarn and npm
+**/yarn-error.log
+**/yarn-debug.log
+**/package-lock.json
+
+# IDE/Editor files
+**/.idea/
+**/.vscode/
+**/*.swp
+**/.DS_Store
+
+# Testing
+**/coverage/
+**/jest/
+
+# Miscellaneous
+**/*.tgz
+**/*.gz
+**/*.zip
+**/*.tar
+
+# React Native
+**/*.native.js
+**/*.native.ts
+**/*.story.js
